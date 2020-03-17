@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>my first website</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+   <link rel="stylesheet" type="text/css" href="homecss.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<style>
+
+ul {
+  list-style-type: none;
+  margin-left: 0px;
+  margin-top:0;
+  padding: 30;
+  width: 16.2%;
+  background-color: #F8F8FF;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.button1 {
+  background-color:#55ACEE; 
+  border: none;
+  color: white;
+  padding: 5px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 32px
+}
+
+
+li a {
+  display: block;
+  color: #000;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size:18px;
+  font-weight:bold;
+}
+
+li a.active {
+  
+  color:#00acee ;
+  text-decoration:none;
+  
+  
+}
+
+li a:hover
+{
+  background-color: white;
+}
+
+.divtwo a.active
+{
+  color:#00acee ;
+  text-decoration:underline;
+}
+
+li a:hover:not(.active) {
+  background-color: #00acee ;
+  color:white;
+  text-decoration: none;
+}
+
+
+.fa-twitter {
+  padding: 30;
+  font-size: 30px;
+  width:50px;
+  text-align: center;
+  text-decoration: none;
+   margin-left: 15px;
+   margin-top:20px;
+  border-radius: 50%
+}
+
+
+.fa-twitter {
+   margin-left: 5px;
+   margin-top:20px;
+   font-size:30px;
+   color:#55ACEE;
+  
+}
+.fab:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    background-color:#F8F8FF;
+
+}
+
+.cardtwo a:hover
+{
+  text-decoration: underline;
+  background-color:white;
+  color:#0000A0;
+}
+
+
+form.example input[type=text] {
+  width:450px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  font-size: 15px;
+  background-color: white;
+  padding: 5px;
+  float:left;
+  margin-top:7px;
+  margin-left:30px;
+  height:30px;
+
+  
+  
+  
+}
+
+form.example button {
+  float:left;
+  width:30px;
+  padding: 5px;
+  background: #55ACEE;
+  color: white;
+  font-size: 10px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin-top:7px;
+  margin-left:0px;
+   height:30px; 
+  
+
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form.example a:hover
+{
+  cursor:pointer;
+  background-color:white;
+}
+
+
+.divone
+{
+  margin-left:250px;
+  width:40%;
+  height:auto;
+  padding:30;
+  border-right: 1px solid grey;
+  border-left:1px solid grey;
+  display:inline-block;
+  position:relative;
+
+}
+
+
+.divtwo
+{
+  position:fixed;
+ 
+}
+
+
+
+
+</style>
+
+</head>
+<body style="background-color:#F8F8FF;">
+<ul >
+  <a href="#" class="fab fa-twitter " ></a>
+  <li><a class="active" href="#home"><i class='fas fa-home'></i>&nbsp;&nbsp; Home</a></li>
+  <li><a href="#news"><i class='fas fa-hashtag'></i>&nbsp;&nbsp; Explore</a></li>
+  <li><a href="#contact"><i class='far fa-bell'></i>&nbsp;&nbsp; Notifications</a></li>
+  <li><a href="#message"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;  Messages</a></li>
+  <li><a href="#Bookmarks"><i class='far fa-bookmark'></i>&nbsp;&nbsp; Bookmarks</a></li>
+  <li><a href="#list"><i class='far fa-list-alt'></i>&nbsp;&nbsp; Lists</a></li>
+  <li><a href="#profile"><i class='fas fa-user'></i>&nbsp;&nbsp; Profile</a></li>
+  <li><a href="#more"><span class="glyphicon glyphicon-option-horizontal"></span>&nbsp;&nbsp;  More</a></li>
+  <button type="button" class="button1">Tweet</button>
+</ul>
+
+
+
+<div class="divone">
+
+
+<div class="divtwo">
+<form class="example" action="#">
+  <input type="text" placeholder="Search Twitter" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+   <a href="#" ><i class="fa fa-cog" style="font-size:19px;color:#55ACEE; margin-left:30px;
+  margin-top:12px"></i></a>
+</form>
+
+
+
+<ul>
+  <li><a class="nav-link active "href="#home">For you</a></li>
+  <li><a class="nav-link"href="#news">News</a></li>
+  <li><a class="nav-link" href="#sports">Sports</a></li>
+  <li><a class="nav-link" href="#fun">Fun</a></li>
+  <li><a class="nav-link" href="#entertainment">Entertainment</a></li>
+</ul>
+
+</div>
+
+<div class="content">
+<img src="C:\Users\NAVEENA\REMOTE INTERN\twitter\images\scene1.jpg" alt="Girl in a jacket" style="width:100%;height:340px;margin-top:90px;margin-left:0px;border-style:solid; border-bottom-width:thick;border-bottom-color:  #D3D3D3;" >
+</div>
+
+<div class="down" style="margin-top:-1px;">
+  <div class="head">
+  <marquee style="border:#55ACEE 3px SOLID;font-weight:bold;font-color:black;">TRENDS FOR YOU!</marquee>
+  </div>
+  <div class="content1">
+  <p>&nbsp; Trending in india <i class="material-icons">expand_more</i></br><span style="font-weight:bold;font-color:black;font-family:Arial;">&nbsp; #MasterUpdateWeek</span> </br>&nbsp; 2,834 Tweets</p>
+  </div>
+  <div class="content1">
+  <p>&nbsp; Trending in India <i class="material-icons">expand_more</i> </br><span style="font-weight:bold;font-color:black;font-family:Arial;">&nbsp; #AjithKumar</span></br>&nbsp; 1,463 Tweets</p>
+  </div>
+  <div class="content1">
+  <p>&nbsp; Trending in Tamil Nadu <i class="material-icons">expand_more</i></br><span style="font-weight:bold;font-color:black;font-family:Arial;">&nbsp; #SunTV </span></br>&nbsp; 26.9K Tweets</p>
+  </div>
+</div>
+
+</div>
+<div class="card"> 
+  <div class="cardchild">
+    <div class="cardone">
+    <p style="font-family:Times New Roman;font-weight:bold;font-color:black;font-size:20px;border-bottom:solid;border-bottom-color:blue;border-bottom-width:thin;text-align:center;">Who to Follow</p>
+    </div>
+    <div class="cardtwo">
+     <p><i class='fas fa-user-circle' style='font-size:20px;color:blue'></i>&nbsp; <a href="#">Rahul Gandhi</a><button type="button" class="butta">Follow</button></br>@RahulGandhi</p>
+    </div>
+    <div class="cardtwo">
+    <p><i class='fas fa-user-circle' style='font-size:20px;color:blue'></i>&nbsp; <a href="#">Justin Bieber</a><button type="button" class="butta">Follow</button></br>@justinbieber</p>
+    </div>
+    <div class="cardtwo">
+    <p><i class='fas fa-user-circle' style='font-size:20px;color:blue'></i>&nbsp; <a href="#">Narendra Modi</a><button type="button" class="butta">Follow</button></br>@narendramodi</p>
+    </div>
+    <div>
+      <a href="#" style="margin-left:15px;font-size:15px;">Show more</a>
+    </div>
+  </div>
+</div>
+
+<div class="symbols">
+  <p><a href="#" class="grey">Terms</a>&nbsp;&nbsp;<a href="#" class="grey">Privacy policy</a>&nbsp;&nbsp;<a href="#" class="grey">Cookies</a>&nbsp;&nbsp;<a href="#" class="grey">Ads info</a>&nbsp;&nbsp;<a href="#" class="grey">More</a></br>&copy 2020 Twitter, Inc
+</div>
+<div class="polaroid">
+  <font color="black"><marquee direction="left" style="background:#55ACEE">What's happening?</marquee></font>
+  <img src="C:\Users\NAVEENA\REMOTE INTERN\twitter\images\rain2.jpeg" alt="Rain" style="width:100%;height:140px;">
+  <div class="polaroidone">
+        <p style="text-shadow: 0 0 3px #55ACEE;font-size:20px";><strong>Today</strong></p>
+           <p style="font-weight:bold;font-size:15px;">Rain-drenched Delhi</p>
+             <p> <button type="button" class="btn btn-primary" style="margin-top:10px;">Info</button></p>
+  </div>
+</div>
+</body>
+</html>

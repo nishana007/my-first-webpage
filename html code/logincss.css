@@ -1,0 +1,113 @@
+.twitter
+{
+	margin-left:470px;
+	margin-top:100px;
+	width:590px;
+	height:410px;
+}
+
+
+.fa-twitter
+{
+  
+  font-size: 40px;
+  width:50px;
+  text-align: center;
+  margin-left: 260px;
+  margin-top:10px;
+  color:#55ACEE;
+}
+
+.one
+{
+	font-size:25px;
+	font-family:Arial;
+	font-color:black;
+	font-weight:bold;
+	margin-top:14px;
+	margin-left:190px;
+}
+
+.input-icons
+{
+    
+    width:400px;
+    height:50px;
+    margin-left:85px;
+    margin-top:16px;
+    border-radius:17px;
+    border:none;
+    position:relative;
+}
+
+ .input-icons i
+{
+	position: absolute;
+    color: black;
+    padding: 20px;
+    margin-left:85px
+    margin-top:16px
+    min-width: 50px; 
+    text-align: center; 
+}
+
+.input-field
+{
+	width:100%;
+	padding:15px;
+	background-color: dodgerblue;
+    border-radius:17px;
+    text-align:center;
+    outline:none;
+    border:none;
+    box-sizing:border-box;
+    transition: 0.3s;
+}
+
+
+
+.click
+{
+	background-color: black;
+    border:none;
+    width:400px;
+    height:50px;
+    margin-left:87px;
+    margin-top:22px;
+    border-radius:17px;
+    color:white;
+    outline:none;
+}
+
+input[type="text"]:focus {
+  
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type="password"]:focus {
+  
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+
+.two a
+{
+	
+	color:blue;
+	font-size:15px;
+	
+
+}
+
+a:hover
+{
+	text-decoration:underline;
+	text-decoration-color:blue;
+}
+
+.three
+{
+	margin-top:25px;
+	margin-left:170px;
+	word-spacing:2px;
+}
